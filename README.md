@@ -1,1 +1,1 @@
-# dsgqr.github.io
+# DSGQR.github.io
