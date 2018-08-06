@@ -25,10 +25,10 @@ a:link {
     color: aqua;
 }
 a:visited {
-    color: crimson;
+    color: aqua;
 }
 a:hover {
-    color: darkred;
+    color: crimson;
 }
 
 .projects {
