@@ -11,7 +11,7 @@ body {
 }
 
 .links {
-    grid-area: 2 / 2 / 2 / 3;
+    grid-area: 2 / 1 / 2 / 2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     color: aqua;
