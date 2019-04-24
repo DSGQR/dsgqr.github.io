@@ -1,0 +1,186 @@
+body,
+.footer-copyright {
+  background: #252934 !important;
+}
+
+.section-landing-page {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Merienda', cursive;
+}
+
+.section-landing-page h4 {
+  margin: 0;
+  padding-top: 200px;
+}
+
+.section-landing-page h5 {
+  margin-top: 10px;
+}
+
+.section-landing-page a {
+  margin-top: 50px;
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+
+nav, footer {
+  background: linear-gradient(to right, #7b39f0, #5081e5, #28d1da);
+}
+
+.section-profile {
+  padding-bottom: 20px;
+  height: 70vh;
+}
+
+.row {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.section-profile img {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  border: 3px solid white;
+}
+
+.sidenav .circle {
+  border: 2px solid white;
+}
+
+.section-profile h1,
+.section-portfolio h1,
+.section-technology h1,
+.section-education h1,
+.section-contact h1 {
+  font-size: 300%;
+  font-weight: 250;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: -webkit-linear-gradient(#28d1da, #5081e5, #7b39f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1:after {
+  display: block;
+  height: 2px;
+  background-color: rgb(251, 255, 0);
+  content: " ";
+  width: 120px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.sidenav .divider {
+  margin: 0 !important;
+}
+
+.section-profile .who {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Merienda', cursive;
+}
+
+.section-profile p {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+ul.profile-detail li .value {
+  font-size: 30px;
+}
+
+.profile-detail-label {
+  color: #2196f3;
+  text-transform: uppercase;
+  padding-right: 20px;
+  border-right: 1px solid #28d1da;
+}
+
+.tech-img {
+  padding: 5px 0;
+}
+
+.tech-card .card-content {
+  padding: 2px 0;
+}
+
+.tech-card .card-content .card-title {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.parallax-container {
+  height: 100px;
+}
+
+.material-tooltip .backdrop {
+  background-color: purple;
+}
+
+/* FORM */
+
+.section-contact p {
+  color: #000;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: #28d1da;
+  padding: 10px 0;
+  margin: 5px 70px 5px 70px;
+  overflow: hidden;
+}
+
+.input-field input, 
+textarea,
+.input-field label {
+  font-weight: 100;
+}
+
+.input-field label,
+textarea:focus + label {
+  color: #fff !important;
+}
+
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label {
+  font-weight: 100;
+  color: #fff !important;
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 #2196f3 !important;
+}
+
+.input-field .prefix.active {
+  color: #fff !important;
+}
+
+.card-panel {
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+
+.section-contact {
+  padding-top: 10px;
+  padding-bottom: 200px;
+}
+
+.fa-4x {
+  margin: 5px 15px;
+  /* background-color: #252934; */
+  /* padding: 1px 8px; */
+  border-radius: 10px;
+}
+
+/* ------------------------------- */
+/* Animate CSS */
+/* ------------------------------- */
+
+.section-profile h1 {
+  animation-delay: 0.5s;
+}
